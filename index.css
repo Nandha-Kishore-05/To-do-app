@@ -1,0 +1,35 @@
+.container{
+    background-image:url('valley-landscape-aesthetic-mountains-gradient-background-6318x2633-4589.jpg');
+   background-size: cover;
+    height:100vh;
+    border: 3px solid black;
+    border-radius: 3px;
+   
+
+}
+.container2{
+     justify-content: center;
+    align-content: center;
+}
+#text{
+    border : none;
+    outline : none;
+    background: transparent;
+    color:black;
+    padding : 16px  50px;
+    background-color: aliceblue;
+    font-weight: 14px;
+    border-radius: 40px;
+    
+}
+
+button{
+    border: none;
+    outline : none;
+    padding : 16px  50px;
+    background: orangered;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 40px;
+}
