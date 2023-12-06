@@ -1,35 +1,100 @@
-.container{
-    background-image:url('valley-landscape-aesthetic-mountains-gradient-background-6318x2633-4589.jpg');
-   background-size: cover;
-    height:100vh;
-    border: 3px solid black;
-    border-radius: 3px;
-   
+body {
+    background-image: url('valley-landscape-aesthetic-mountains-gradient-background-6318x2633-4589.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    animation: moveBackground 20s linear infinite; 
+}
+@keyframes moveBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0; 
+    }
+  }
 
+.container {
+
+
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
 }
-.container2{
-     justify-content: center;
+
+.container2 {
+    justify-content: center;
     align-content: center;
+    width: 50%;
+    height: 1000%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 60px;
 }
-#text{
-    border : none;
-    outline : none;
+
+#text {
+    border: none;
+    outline: none;
     background: transparent;
-    color:black;
-    padding : 16px  50px;
+    color: black;
+    padding: 16px 50px;
     background-color: aliceblue;
     font-weight: 14px;
     border-radius: 40px;
-    
 }
 
-button{
+button {
     border: none;
-    outline : none;
-    padding : 16px  50px;
-    background: orangered;
+    outline: none;
+    padding: 16px 50px;
+    background: rgb(242, 114, 144);
     color: white;
     font-size: 14px;
     cursor: pointer;
     border-radius: 40px;
 }
+
+ul {
+    padding: 12px 3px 12px 5px;
+    font-size: 20px;
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button2 {
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    background: rgb(242, 114, 144);
+    color: white;
+    font-size: 14 px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 35%;
+    
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    font: size 100%;
+}
+.custom-checkbox {
+    width: 30px; 
+    height: 30px;
+  }
+  
