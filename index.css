@@ -93,8 +93,19 @@ h1 {
     color: white;
     font: size 100%;
 }
+/* .custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+}
 .custom-checkbox {
-    width: 30px; 
-    height: 30px;
-  }
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #888;
+    border-radius: 3px;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    
+  } */
   

@@ -21,7 +21,7 @@ function add() {
     if (text.value !== "") {
         var li = document.createElement("li");
         li.innerHTML =
-            '<input type="checkbox" class="custom-checkbox">' +
+            // '<input type="checkbox" class="custom-checkbox">' +
             text.value +
             '<button class="button2" onclick="deleteTask(this)">Delete</button>';
         taskList.appendChild(li);
